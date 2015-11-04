@@ -49,11 +49,10 @@ namespace Leplank
             Econnection = 680;
             #endregion
 
-            Game.PrintChat("<b><font color='#8A008A'>Le</font><font color='#FF6600'>plank</font></b> " + version + " loaded - By <font color='#6666FF'>Brikovich</font> & <font color='#6666FF'>Baballev</font>");
+            Game.PrintChat("<b><font color='#8A008A'>Le</font><font color='#FF6600'>plank</font></b> " + version + " EXPRIMENTAL loaded - By <font color='#6666FF'>Brikovich</font> & <font color='#6666FF'>Baballev</font>");
             Game.PrintChat("Don't forget to <font color='#00CC00'><b>Upvote</b></font> <b><font color='#8A008A'>Le</font><font color='#FF6600'>plank</font></b> in the Assembly DB if you like it ^_^");
             Menus.MenuIni();
             Updater.Update();
-
             //Events
             GameObject.OnCreate += BarrelsManager._OnCreate;
             Game.OnUpdate += BarrelsManager._OnDelete;
